@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+ .content{
+    background-color: white;
+    border-radius: 10px;
+    height: 1200px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.first-paragraph{
+    text-align: center;
+    padding-bottom: 20px;;
+}
+
+
+.connect{
+    position:relative;
+    top: -75px;
+    left: 1000px;
+    width: 200px;
+    height: 75px;
+    color: white;
+
+}
+
+.connect:hover{
+    color: red;
+    background-color: #165e64;
+    cursor: pointer;
+
+}

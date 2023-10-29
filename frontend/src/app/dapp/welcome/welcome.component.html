@@ -1,0 +1,56 @@
+<app-nav-dapp>
+        <li class="nav-addition"><a href="#">
+            <select class="logout">
+                <option value="Logout">Log out</option>
+            </select>
+        </a></li>
+</app-nav-dapp>
+
+<div class="content">
+  <br><br>
+  <p class="font-bold text-2xl first-paragraph">Welcome back, User 1!</p>
+  <br>
+
+<div class="grid grid-cols-2 gap-20">
+    <div>
+        <img class="h-64 w-4/5" src="https://img.freepik.com/premium-photo/business-people-lifestyle-concept-portrait-handsome-african-american-man-cross-hands-chest-smiling-pleased_176420-33828.jpg?w=826" alt="User-1">
+        <div class="grid grid-cols-2">
+            <div class="w-full h-6 bg-gray-200 rounded-full dark:bg-white-700">
+                <div class="h-6 bg-blue-600 rounded-full dark:bg-green-500" style="width: 10%"></div>
+            </div>
+            <div>
+                <p class="text-lg text-left">Day 4/21</p>
+            </div>
+        </div>
+        <div class="mt-8">
+            <p class="text-lg text-left">100 USDC pledged</p>
+            <p class="text-lg text-left">Remaining locked amount</p>
+            <p class="text-lg text-left">80.953 USDC</p>
+        </div>
+        <div class="flex justify-left">
+            <br>
+            <br>
+            <button class="w-4/5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+            >
+                Daily Check-in
+              </button>
+        </div>
+    </div>
+    <div >            
+        <a href="#">
+                <img
+                src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_843847552_330966.jpg"
+                class=" h-96 w-3/5 rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800"
+                alt="habit" />  
+            </a>
+            <br>
+            <div class="flex justify-left">
+                <br>
+                <br>
+                <button (click)="gotTo('dapp/create')" class="w-3/5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mr-10">
+                    Pledge to form a new habit
+                </button>
+        </div>
+    </div>
+</div>
+</div>

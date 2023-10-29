@@ -1,0 +1,22 @@
+<div class="m-auto text-center pt-10 w-full ">
+
+    <h1 class="text-center text-2xl">Frequently Asked Questions</h1>
+
+    <div class="text-center pt-10 w-5/6 p-20">
+
+    <ul class="list-none">
+      <li class="mb-2.5" *ngFor="let question of questions">
+       
+        <h3 class="text-left cursor-pointer text-zinc-800 font-normal p-2.5 bg-neutral-100 rounded transition hover:bg-neutral-200 text-black duration-300" 
+        (click)="toggleAnswer(question)">{{ question.title }}
+        
+        <i class="fa-solid fa-arrow-pointer float-right"></i>
+        </h3> 
+        <p class="p-2.5 rounded text-left font-light" *ngIf="question.showAnswer">{{ question.answer }}</p>
+      </li>
+    </ul>
+    </div>
+  </div>
+<app-footer></app-footer>
+
+

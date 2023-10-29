@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ .content{
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.first-paragraph{
+    text-align: center;
+    padding-bottom: 20px;;
+}
+
+input[type=text], select {
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 15%;
+background-color: red;
+color: white;
+padding: 1%;
+margin: 8px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+text-align: center;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+div.input-habit {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+margin-top: 80px;
+width: 90%;
+}
+
+
+@media (max-width: 1063px) {
+
+    .content{
+    width: 80%;
+    height: 700px
+        }
+
+    .div.input-habit {
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 65%;
+        }
+
+    input[type=submit]{
+        width: 20%;
+        text-align: left;
+        font-size: 10px;
+        padding: 10px 13px
+    }
+}
+
+@media (max-width: 768px) {
+
+    .content{
+    width: 80%;
+    height: 1200px
+        }
+
+    .div.input-habit {
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 65%;
+        }
+
+    input[type=submit]{
+        width: 20%;
+        text-align: left;
+        font-size: 8px;
+        padding: 10px 13px
+    }
+}
+
+@media (max-width: 663px) {
+
+    .content{
+    width: 80%;
+    height: 1200px
+        }
+
+    .div.input-habit {
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 65%;
+        }
+
+    input[type=submit]{
+        width: 20%;
+        text-align: left;
+        font-size: 5px;
+        padding: 10px 13px
+    }
+}
+
+@media (max-width: 450px) {
+
+    .content{
+    width: 80%;
+    height: 1300px
+        }
+
+    .div.input-habit {
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 55%;
+        }
+
+    input[type=submit]{
+        width: 20%;
+        text-align: left;
+        font-size: 4px;
+        padding: 10px 8px
+    }
+}

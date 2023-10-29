@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+ .content{
+    background-color: white;
+    border-radius: 10px;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.first-paragraph{
+    text-align: center;
+    padding-bottom: 20px;;
+}
+
+
+
+.nav-addition{
+    position:relative;
+    top: -78px;
+    left: 1100px;
+    width: 80px;
+}
+
+.nav-addition:hover{
+    color: red;
+    background-color: #165e64;
+
+}
