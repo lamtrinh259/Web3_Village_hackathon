@@ -57,14 +57,13 @@ The link to the smart contract of Motivate for Moonbase Alpha Testnet is:
 
 ## Other artefacts
 
-### Demo movie
-
+### Presentation
+https://docs.google.com/presentation/d/1jilw6CIA9bxkKclDXlyfgUdWqxSz-tgpsVOfJnEG6jY/edit?usp=sharing
 
 ### Demo site
 
-
 To interact with the smart contract on the site, user needs to have a polkadot.js wallet. If user doesn't have one yet, they can download it from here: https://polkadot.js.org/extension/
-If user already has Metamask installed, he/she needs to add the Moonbase Alpha testnet to the wallet by going to this site: https://chainlist.org/?search=Moonbase
+If user already has Polkadot.js installed, he/she needs to add the Aleph Zero testnet to the wallet by going to this site: https://test.azero.dev/
 
 ### How to run the app locally
 1. Go to the Frontend folder
